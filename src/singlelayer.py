@@ -83,7 +83,7 @@ for epoch in range(epochs):
     
     cost.append(total)  # store the total loss for the current epoch
     
-    if epoch % 1000 == 0:
+    if epoch == 5000:
         print(str(epoch) + " epochs done!")  # print a message every 1000 epochs to track progress
         
         # visualize the results after every 1000 epochs
